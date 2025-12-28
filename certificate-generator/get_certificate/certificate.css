@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.form-card {
+    width: 100%;
+    max-width: 650px;
+    background: linear-gradient(145deg, #f0f4f8, #ffffff);
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+    text-align: center;
+}
+
+h2 {
+    color: #4a148c;
+    margin-bottom: 25px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    border-radius: 14px;
+    border: 1.5px solid #ddd;
+    font-size: 16px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #4a148c;
+    box-shadow: 0 0 8px rgba(74,20,140,0.4);
+}
+
+button {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
+
+#certificate-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+canvas {
+    border: 3px solid #4a148c;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.message {
+    color: green;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.back-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #4a148c;
+    font-weight: 600;
+}
