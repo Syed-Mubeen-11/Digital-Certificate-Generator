@@ -4,7 +4,7 @@ A modern web application to generate digital certificates for events.
 Admins can sign up, log in, add events with certificate templates, and view participants.
 Users can register for events and download personalized certificates.  
 
----
+
 
 ## **Features**
 
@@ -25,7 +25,7 @@ Users can register for events and download personalized certificates.
 - Works on both desktop and mobile screens
 - Interactive and intuitive interface
 
----
+
 
 ## **Technologies Used**
 - **Frontend:** HTML, CSS, JavaScript
@@ -34,7 +34,7 @@ Users can register for events and download personalized certificates.
 - **Server:** XAMPP (local development)
 - **Fonts:** Google Fonts (Poppins)
 
----
+
 
 ## **Setup Instructions**
 
