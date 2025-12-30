@@ -28,7 +28,7 @@ if (isset($_POST['signup'])) {
 <html>
 <head>
 <title>Admin Signup</title>
-<link rel="stylesheet" href="admin.css">
+<link rel="stylesheet" href="admin_p.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -54,3 +54,4 @@ if (isset($_POST['signup'])) {
 
 </body>
 </html>
+
